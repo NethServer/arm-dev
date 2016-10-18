@@ -14,6 +14,7 @@ The proposed use of this issue tacker is limited to this groundwork.
 
 Join our discussion on the nethserver [community] (http://community.nethserver.org/t/nethserver-v7-beta-2-runs-on-a-pi/4668)
 
-If you want to have a look at it, [install] (http://wiki.nethserver.org/doku.php?id=ns_raspi2) it on your raspberry  PI
+If you want to have a look at it, [install] (http://wiki.nethserver.org/doku.php?id=ns_raspi2) it on your raspberry PI
+
 (keep in mind this are the first baby steps of the port to arm)
 
