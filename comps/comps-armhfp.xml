@@ -94,6 +94,7 @@
       <packagereq type="mandatory">vim-minimal</packagereq>
       <packagereq type="mandatory">xfsprogs</packagereq>
       <packagereq type="mandatory">yum</packagereq>
+      <packagereq type="mandatory">wpa_supplicant</packagereq>     
       <packagereq type="default">dracut-config-rescue</packagereq>
       <packagereq type="default">iwl100-firmware</packagereq>
       <packagereq type="default">iwl1000-firmware</packagereq>
