@@ -30,9 +30,7 @@ If you like to contribute you can adopt one or more modules and give them a good
 
 A devlopment image [Nethserver-7.5.1804-Devel-RaspberryPi-img.raw.xz](https://drive.google.com/file/d/1WNX4TXRWuoXtUhs5h4VKZeXFQzm0xyMg/view?usp=sharing) is availibale for download
 
-This image can be flashed with [ecther](https://etcher.io/) 
-
-On linux:  
+This image can be flashed with [ecther](https://etcher.io/) - or - on linux:  
 
 >xzcat Nethserver-7.5.1804-Devel-RaspberryPi-img.raw.xz |   sudo dd of=$/path/to/sd/card bs=4M status=progress && sudo sync
 
