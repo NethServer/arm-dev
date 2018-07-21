@@ -1,0 +1,10 @@
+libc-client*
+libmcrypt*
+php-imap*
+php-mcrypt*
+php-pecl-apcu*
+php-pecl-igbinary*
+php-pecl-memcached*
+php-pecl-msgpack*
+php-pecl-redis*
+php-smbclient*

@@ -1,0 +1,14 @@
+davfs2*
+duplicity*
+librsync*
+ncftp*
+python-GnuPGInterface*
+python-fasteners*
+python2-PyDrive*
+python2-boto*
+python2-gflags*
+python2-google-api-client
+python2-keyring*
+python2-oauth2client*
+python2-rsa*
+python2-uritemplate*

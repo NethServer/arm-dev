@@ -1,0 +1,10 @@
+perl-Expect*
+php-kolab-net-ldap3*
+php-pear-Auth-SASL*
+php-pear-Mail-Mime*
+php-pear-Net-IDNA2*
+php-pear-Net-LDAP2*
+php-pear-Net-SMTP*
+php-pear-Net-Sieve*
+php-pear-Net-Socket*
+roundcubemail*
