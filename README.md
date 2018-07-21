@@ -7,7 +7,7 @@ Join our discussion on the nethserver [community](http://community.nethserver.or
 Currently the focus is the update of arm32 bit (armhfp) to Nethserver 7.5.1804 arm32.  
 Experience from the past learned arm64 (aarch64) is quite easy to do and proposal is to merge arm64 bit in at the first alpha release.
 
-###Contribute and proposed workflow
+**Contribute and proposed workflow**  
 
 In the Software Center of the web based server-manager there are (“Everything” not counted) 5 tabs:
 * Base System
@@ -26,7 +26,8 @@ If you like to contribute you can adopt one or more modules and give them a good
 
 </br>
 
-###Flashable image
+**Flashable image**  
+
 A devlopment image [Nethserver-7.5.1804-Devel-RaspberryPi-img.raw.xz](https://drive.google.com/file/d/1WNX4TXRWuoXtUhs5h4VKZeXFQzm0xyMg/view?usp=sharing) is availibale for download
 
 This image can be flashed with [ecther](https://etcher.io/) 
@@ -51,7 +52,7 @@ This image never booted up and starts at first boot with a “signal-event syste
 </br>
 </br>
 
-## nethserver-arm eprel-repository
+## nethserver-arm epel-repository
 
 For arm32 bit (armhpf) no official epel repository is released, 
 however most packages are built by the Centos arm32 SIG and are available from the [builders repository](https://armv7.dev.centos.org/repodir/epel-pass-1/).
