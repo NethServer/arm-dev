@@ -6,12 +6,12 @@ To be able to run nextcloud > 13.x on nethserver-arm 32 bit we thankfully make u
 
 Packages already build by the [community effort](https://armv7.dev.centos.org/repodir/community-SCLs_php72-testing/) are mirrored in the ns-scl-testing repository, [others are rebuild](https://armv7.dev.centos.org/repodir/community-php72-testing/) as SCL packages.
 
-Nethserver-mock based/dependent  build tools can be found here:  
+Nethserver-mock based/dependent  build tools are included here:  
 copy the mock configuration, make-php72-rpms and make-php72-sprm to the appropriate  place on your arm32 system. 
 
 You need a specfile converted to fit a SCL build, than:
 
->make-php72-rmps php-\<module\>.spec
+>make-php72-rpms php-\<module\>.spec
 
 
 
