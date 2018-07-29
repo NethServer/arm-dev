@@ -216,7 +216,6 @@
     <id>nethserver-ftp</id>
     <name>FTP server</name>
     <description>Configure the FTP server (vsftpd)</description>
-    <description xml:lang="cs_CZ">Nastavit FTP server (vsftpd)</description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -447,7 +446,7 @@
     <name>Nextcloud</name>
     <description>Configure Nextcloud, universal access to your files via the web, your computer or your mobile devices - wherever you are</description>
     <default>false</default>
-    <uservisible>false</uservisible>
+    <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-nextcloud</packagereq>
     </packagelist>
@@ -541,6 +540,7 @@
       <groupid>nethserver-net-snmp</groupid>
       <groupid>nethserver-pop3connector</groupid>
       <groupid>nethserver-fail2ban</groupid>
+      <groupid>nethserver-nextcloud</groupid>
     </grouplist>
   </category>
 
