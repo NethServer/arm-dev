@@ -3,13 +3,13 @@
 # Adjust to repo_path your setup !!
 # ie "/var/www/repo/nethserver-arm/7.5.1804"
 repo_path="<absolute_path_to_repo>/7.5.1804"
-grouplist_path=${repo_path}/updates
 
-opt_delete=""
+
 # uncommented old packages are deleted otherwize updates are installed beside old packages
 opt_delete="--delete"
 
 ##########################################################################################
+
 
 # yum-conf
 cat > yum-mirror-epel.conf << EOF
@@ -48,6 +48,7 @@ done
 reposync -l --arch=armv7hl --config=yum-mirror-epel.conf --repoid=mirror-epel \
     --download_path=${repo_path}/ns-epel/armhfp/Mirror-dev-pass-1-epel/ \
     --norepopath --newest-only $opt_delete
+
 
 # FIXME no need to run if $opt_delete eq ""
 # cleanup and remove empty directories
