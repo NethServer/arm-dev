@@ -253,8 +253,8 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="mandatory">nethserver-mail2-filter</packagereq>
       <packagereq type="mandatory">nethserver-mail2-server</packagereq>
+      <packagereq type="optional">nethserver-mail2-filter</packagereq>     
       <packagereq type="optional">nethserver-mail2-disclaimer</packagereq>
     </packagelist>
   </group>
