@@ -1,3 +1,15 @@
-certbot* python2-acme* python2-certbot*
-python2-pyrfc3339* python2-josepy* python2-configargparse* python-parsedatetime* python2-requests* python2-six* 
-python-ndg_httpsclient* python-zope-component* python2-future* python2-mock* python-zope-event*
+certbot*
+python-ndg_httpsclient*
+python-parsedatetime*
+python-requests-toolbelt*
+python-zope-component
+python-zope-event*
+python2-acme*
+python2-certbot*
+python2-configargparse*
+python2-future*
+python2-josepy*
+python2-mock*
+python2-pyrfc3339*
+python2-requests*
+python2-six* 
