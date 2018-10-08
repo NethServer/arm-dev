@@ -172,9 +172,10 @@
       <packagereq type="mandatory">traceroute</packagereq>
       <packagereq type="mandatory">deltarpm</packagereq>
       <packagereq type="mandatory">nano</packagereq>
-	  <packagereq type="mandatory">which</packagereq>
+      <packagereq type="mandatory">which</packagereq>
       <packagereq type="mandatory">man</packagereq>
-      <packagereq type="mandatory">bash-completion-extras</packagereq>      
+      <packagereq type="mandatory">bash-completion-extras</packagereq>
+      <packagereq type="mandatory">file</packagereq>     
     </packagelist>
   </group>
   
