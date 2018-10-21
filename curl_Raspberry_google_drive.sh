@@ -3,7 +3,7 @@
 # http://blog.mclain.ca/download-large-files-from-google-drive-via-curl/
 
 filename="Nethserver-7.5.1804-Devel-RaspberryPi-img.raw.xz"
-file_id="1WNX4TXRWuoXtUhs5h4VKZeXFQzm0xyMg"
+file_id="1SV8hHCqsH7kCiJaVDmA_w6Rq47q_hade"
 
 query=`curl -c ./cookie.txt -s -L "https://drive.google.com/uc?export=download&id=${file_id}" \
 | perl -nE'say/uc-download-link.*? href="(.*?)\">/' \
