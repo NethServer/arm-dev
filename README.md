@@ -28,13 +28,13 @@ If you like to contribute you can adopt one or more modules and give them a good
 
 **Flashable image**  
 
-A devlopment image for a Raspberry PI [Nethserver-7.5.1804-Devel-RaspberryPi-img.raw.xz](https://drive.google.com/file/d/1WNX4TXRWuoXtUhs5h4VKZeXFQzm0xyMg/view?usp=sharing) is availibale for download
+A devlopment image for a Raspberry PI [Nethserver-7.5.1804-Devel-RaspberryPi-img.raw.xz](https://drive.google.com/open?id=1SV8hHCqsH7kCiJaVDmA_w6Rq47q_hade) is availibale for download
 
 This image can be flashed with [ecther](https://etcher.io/) - or - on linux:  
 
 >xzcat Nethserver-7.5.1804-Devel-RaspberryPi-img.raw.xz |   sudo dd of=$/path/to/sd/card bs=4M status=progress && sudo sync
 
-For (other) u-boot based SBC's the [Nethserver-7.5.1804-Devel-Generic-img.raw.xz](https://drive.google.com/open?id=1A5EUMJ6ZI2rRKidyX3Nc2NFWGCtiFCVp) devlopment image is availibale for download
+For (other) u-boot based SBC's the [Nethserver-7.5.1804-Devel-Generic-img.raw.xz](https://drive.google.com/open?id=1VKeU6Gjqn26Cir0jm7fuaYgsEG6UYQvt) devlopment image is availibale for download
 
 To prepare your SD-Card and flash-uboot using the Generic image:
 
