@@ -505,7 +505,8 @@
       <groupid>nethserver-mail</groupid>
       <groupid>nethserver-pop3connector</groupid>
       <groupid>nethserver-roundcubemail</groupid>
-    </grouplist>
+      <groupid>nethserver-nextcloud</groupid>    
+      </grouplist>
   </category>
 
   <category>
@@ -537,4 +538,4 @@
     </grouplist>
   </category>  
 
-  </comps>
+</comps>
