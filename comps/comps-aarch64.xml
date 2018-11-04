@@ -237,18 +237,6 @@
 
   <group>
     <id>nethserver-mail</id>
-    <name>Email(1)</name>
-    <description>Email server and filter based on amavisd</description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-mail-server</packagereq>
-      <packagereq type="optional">nethserver-mail-filter</packagereq>
-    </packagelist>
-  </group>
-
-  <group>
-    <id>nethserver-mail</id>
     <name>Email</name>
     <description>Email server and filter</description>
     <default>false</default>
