@@ -4,7 +4,7 @@ This is the [issue tracker](https://github.com/markVnl/nethserver-arm-dev/issues
 
 Join our discussion on the nethserver [community](http://community.nethserver.org)
 
-Currently the focus is the update of arm32 bit (armhfp) to Nethserver 7.5.1804.  
+Currently the focus is the update of arm32 bit (armhfp) to Nethserver 7.6.1810.  
 Experience from the past learned arm64 (aarch64) is quite easy to do and proposal is to merge arm64 bit in at the first alpha release.
 
 **Contribute and proposed workflow**  
