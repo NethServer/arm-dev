@@ -1,5 +1,0 @@
-fail2ban*
-fail2ban-firewalld*
-fail2ban-sendmail*
-fail2ban-server*
-fail2ban-shorewall*
