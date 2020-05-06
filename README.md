@@ -23,11 +23,17 @@ The image can be flashed with [ecther](https://etcher.io/) - or - on linux:
 ```
 xzcat Nethserver-7.8.2003-RC1-RaspberryPi-img.raw.xz |   sudo dd of=$/path/to/sd/card bs=4M status=progress && sudo sync
 ````
+See instructions in [UBOOT.md](https://github.com/NethServer/arm-dev/blob/master/UBOOT.md) for uboot-based boards. 
+
+<br>
 
 **Note**  
-The images are never booted-up and start at first boot with a “signal-event system-init”, this can take over 5 minutes. (largely depending on the speed of the SD card). If you are  curious what is happening during nethserver-init you may want to connect a (serial)monitor and follow the proses with `journalctl -f`
+The images are never booted-up and start at first boot with a “signal-event system-init”, this can take over 5 minutes. (largely depending on the speed of the SD card).  
+If you are  curious what is happening during nethserver-init you may want to connect a (serial)monitor and follow the proses with `journalctl -f`
 
-After the finalization of the initialization you can access one of the web-based management-interfaces at:
+<br>
+
+After the initialization on first-boot you can finalize your installation in one of the web-based management-interfaces at:
 
 ```
 https://<your_ip>:9090
@@ -39,7 +45,7 @@ or
 https://<your_ip>:980
 ````
 
-Before installing additional software packages you need to expand the root_fs partition. TPo use the hole SD-card simply run `rootfs-expand` on the command prompt.
+Before installing additional software packages you need to expand the root_fs partition. To use the hole SD-card simply run `rootfs-expand` on the command prompt.
 
 </br>
 </br>
