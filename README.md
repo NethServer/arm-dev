@@ -8,7 +8,7 @@ Join our discussion on the nethserver [community](http://community.nethserver.or
 **Contribute and proposed workflow**  
 
 If you like to contribute you can adopt one or more modules and give them a good shake / tests:
-* Does it install without errors. (logs, and systemclt -f while installing can be youre friends here)
+* Does it install without errors. (logs, and journalctl -f while installing can be your friends here)
 * Does it function as expected.
 * How does it behave (memory usage, cpu usage) also over a period of days.
 
@@ -21,7 +21,7 @@ Images can be downloaded from the Assets at the [release tab](https://github.com
 The image can be flashed with [ecther](https://etcher.io/) - or - on linux:  
 
 ```
-xzcat Nethserver-7.8.2003-RaspberryPi-img.raw.xz |   sudo dd of=$/path/to/sd/card bs=4M status=progress && sudo sync
+xzcat Nethserver-7.8.2003-RaspberryPi-img.raw.xz | sudo dd of=$/path/to/sd/card bs=4M status=progress && sudo sync
 ````
 See instructions in [UBOOT.md](https://github.com/NethServer/arm-dev/blob/master/UBOOT.md) for uboot-based boards. 
 
