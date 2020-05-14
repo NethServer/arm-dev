@@ -21,7 +21,7 @@ Images can be downloaded from the Assets at the [release tab](https://github.com
 The image can be flashed with [ecther](https://etcher.io/) - or - on linux:  
 
 ```
-xzcat Nethserver-7.8.2003-Final-RaspberryPi-img.raw.xz |   sudo dd of=$/path/to/sd/card bs=4M status=progress && sudo sync
+xzcat Nethserver-7.8.2003-RaspberryPi-img.raw.xz |   sudo dd of=$/path/to/sd/card bs=4M status=progress && sudo sync
 ````
 See instructions in [UBOOT.md](https://github.com/NethServer/arm-dev/blob/master/UBOOT.md) for uboot-based boards. 
 
