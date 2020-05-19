@@ -33,12 +33,16 @@ Find the available boardmodels:
 ls /mnt/usr/share/uboot/
 ```` 
  
+(As said) In this writeup _orangepi_plus2e_ is **assumed**
+
 ```
 export boardmodel="orangepi_plus2e"
 ```` 
 
-``` 
-Find name of u-boot file: `ls /mnt/usr/share/uboot/${boardmodel}
+Find name of u-boot file: 
+
+```
+ls /mnt/usr/share/uboot/${boardmodel}
 ````
  
 Turns-out out for orangepi_plus2e it is u-boot-sunxi-with-spl.bin 
